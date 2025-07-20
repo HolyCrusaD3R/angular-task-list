@@ -5,8 +5,12 @@
   background-color: black;
   border-radius: 10px;
   color: white;
-  padding: 2px 4px;
+  padding: 0px 4px;
   margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .background-red {

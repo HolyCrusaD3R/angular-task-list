@@ -1,0 +1,8 @@
+<div class="image-container" [class.opacity-half]="product().isOutOfStock">
+  <img [src]="product().src" />
+  @if (product().isOutOfStock) {
+  <span>OUT OF STOCK</span>
+  } @else {
+  <span>BUY</span>
+  }
+</div>
